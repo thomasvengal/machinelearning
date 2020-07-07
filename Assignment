@@ -1,0 +1,12 @@
+Sentiment Analysis
+
+1. Import the dataset from http://www.cs.cornell.edu/people/pabo/movie-review-data/review_polarity.tar.gz (1 point).
+2. Split the data into training and testing. (1 point) Optionally you can use 10-fold cross validation.
+3. Extract features using TF-IDF and display the features. ( 2 points)
+4. Model the classifier using GaussianNB, BernoulliNB and MultinomialNB.
+5. Train the classifiers.( 3 points)
+6. Evaluate classifiers on Test Data. ( 2 points)
+7. Report the classifier accuracy, sentiment score for each sentence for all the classifiers. For example, this sentence has probability of 60% being positive or vice versa. ( 2 points)
+8. Display and visualize the word cloud of both the classes. For example, Display word clouds for positive and negative sentiments class. It should show the frequent words coming in respective classes. ( 2 points)
+
+Submit the ipynb file (preferred) or the py file. If py is being submitted, submit a separate report as pdf.
